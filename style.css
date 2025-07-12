@@ -1,0 +1,78 @@
+body{
+
+    display:flex;
+    background-color: hsl(47, 88%, 63%);
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+.card{
+
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 8px 8px 0 black;
+    width: 350px;
+}
+
+#face{
+
+    border-radius: 10px;
+    min-width: 100%;
+}
+
+#tag{
+
+    background-color:hsl(47, 88%, 63%);
+    font-size: 0.75 rem;
+    font-weight: 800;
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 3px;
+    color:hsl(0, 0%, 7%);
+}
+
+#date{
+
+    font-weight: 500;
+    color:hsl(0, 0%, 7%);
+}
+
+#title{
+
+    font-weight: 800;
+    color:hsl(0, 0%, 7%);
+}
+
+#desc{
+    color:hsl(0, 0%, 42%);
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.logo{
+    
+    display: flex;
+    align-items: center;
+    color:hsl(0, 0%, 7%);
+}
+
+#name{
+    margin-left:10px;
+    font-weight: 800;
+    font-size: 15px;
+    color:hsl(0, 0%, 7%);
+}
+
+#greg{
+
+    height:40px;
+}
+
+
+
